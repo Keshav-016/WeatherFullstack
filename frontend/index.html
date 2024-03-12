@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="container">
+        <div class="search-container">
+            <input type="text" id="placeSearch" placeholder="Enter Location">
+            <button id="findButton">get</button>
+        </div>
+        <div class="section sunny-section">
+            <span class="heading" id="wether">Sunny</span>
+            <div class="content">
+                <span class="temperature" id="temperatureInC">25&deg;</span>
+                <hr>
+                <div class="place-detail">
+                    <span id="currentDate">Monday, 21 september</span>
+                    <div>
+                        <img src="./images/location.svg" alt="location " class="location">
+                        <span id="place">San Francisco</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sun sunny"></div>
+            <div class="sun-rays sunny"></div>
+            <div class="sun-rays-light sunny"></div>
+
+            <img src="./images/cloud.svg" alt="cloud" class="cloud night">
+            <div class="moon night"></div>
+
+            <img src="./images/thunder.svg" alt="rainy" class="thunder rainy">
+            <img src="./images/cloud.svg" alt="cloud" class="rainy-cloud rainy">
+
+            <div class="rain rain-drop1 ">
+                <span class="rain-drop drop drew"></span>
+                <span class="rain-drop drop drew drew-small"></span>
+            </div>
+            <div class="rain rain-drop2 ">
+                <span class="rain-drop drop drew"></span>
+                <span class="rain-drop drop drew drew-small"></span>
+            </div>
+            <div class="rain rain-drop3 ">
+                <span class="rain-drop drop drew drew-small"></span>
+                <span class="rain-drop drop drew"></span>
+                <span class="rain-drop drop drew drew-small"></span>
+                <span class="rain-drop drop drew"></span>
+            </div>
+            <div class="rain cloud-drop1 rainy">
+                <span class="drop"></span>
+                <span class="drop"></span>
+            </div>
+            <div class="rain cloud-drop2 rainy">
+                <span class="drop"></span>
+                <span class="drop"></span>
+            </div>
+            <div class="rain cloud-drop3 rainy">
+                <span class="drop"></span>
+                <span class="drop"></span>
+            </div>
+
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
